@@ -3,9 +3,9 @@ programa {
      inteiro A, B, soma, sub, mult, div 
    
     
-    escreva ("Bem vindo a calculadora, aqui você verá o resultado de todas as operações basicas! Basta escrever dois números para serem calculados! \nDigite o primeiro: ")
+    escreva ("Bem vindo a calculadora, aqui você verá o resultado de todas as operações basicas! Basta escrever dois números para serem calculados! \n\nDigite o primeiro: ")
     leia (A)
-    escreva ("Escreva o segundo número para ser calculado ")
+    escreva ("\nEscreva o segundo número para ser calculado: ")
     leia (B)
     
     soma = (A + B)
@@ -17,6 +17,7 @@ programa {
     escreva ("\nO resultado da subtração desses numeros é: ", sub)
     escreva ("\nO resultado da multiplicação desses numeros é: ", mult)
     escreva ("\nO resultado da divisão desses numeros é: ", div)
+    escreva("\n")
     
 
 
