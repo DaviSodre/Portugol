@@ -1,0 +1,15 @@
+Subprograma Principal
+    Declarar Inteiro A
+    Declarar Inteiro B
+    Declarar Inteiro Resultado
+    Declarar Texto TextoR
+    
+    Escrever "Bem vindo a multiplicação! Escreva um numero para ser calculado:"
+    Ler A
+    Escrever "Escreva outro número para ser calculado"
+    Ler B
+    Atribuir Resultado <- A * B
+    Atribuir TextoR <- "O resultado da operação é: "
+    Escrever TextoR
+    Escrever Resultado
+Fim
