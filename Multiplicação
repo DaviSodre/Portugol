@@ -1,16 +1,19 @@
-
-    Inteiro A, B, Resultado
+programa {
+  funcao inicio() {
+     inteiro A, B, resultado
    
-    declarar Texto TextoR
     
-    escreva ("Bem vindo a multiplicação! Escreva um numero para ser calculado:")
-    leia A
-    escreva "Escreva outro número para ser calculado"
-    leia B
+    escreva ("Bem vindo a multiplicação! Escreva um numero para ser calculado: ")
+    leia (A)
+    escreva ("Escreva outro número para ser calculado ")
+    leia (B)
     
-    atribuir Resultado = (A * B)
-    atribuir TextoR = ("O resultado da operação é: ")
+    resultado = (A * B)
     
-    escreva TextoR
-    escreva Resultado
-Fim
+    
+    escreva ("O resultado da multiplicação é: ", resultado)
+    
+
+
+  }
+}
