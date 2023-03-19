@@ -1,19 +1,18 @@
-Subprograma Principal
-    Escrever "Digite a sua primeira nota:"
-    Declarar Inteiro M
+
+    escreva "Digite a sua primeira nota:"
+    Declarar Inteiro (M)
     
-    Ler M
-    Escrever "Digite a sua segunda nota:"
-    Declarar Inteiro M2
+    leia (M);
+    escreva ("Digite a sua segunda nota: ")
+    Declarar Inteiro (M2)
     
-    Ler M2
-    Se M + M2 >= 10
-        Declarar Texto Aprovado
+    leia (M2);
+    Se (M + M2 >= 10)
+        Declarar Aprovado
         
-        Escrever "Você foi aprovado!!"
+        escreva ("Você foi aprovado!!")
     Senão
-        Declarar Texto Reprovado
+        Declarar Reprovado
         
-        Escrever "Você foi reprovado, estude mais."
+        escreva ("Você foi reprovado, estude mais.")
     Fim
-Fim
