@@ -1,0 +1,49 @@
+programa {
+  funcao inicio() {
+     
+      real A, B, soma, sub, mult, div, resultado
+      cadeia C
+    
+   
+    
+    escreva ("Bem vindo a calculadora, aqui você verá o resultado de todas as operações basicas! Basta escrever dois números para serem calculados! \n\nDigite o primeiro: ")
+    leia (A)
+   
+
+
+    escreva ("\nEscreva o segundo número para ser calculado: ", "\n")
+    leia (B)
+
+
+    escreva("\nQual operação você deseja fazer com esses números? (+, -, *, /) --> ")
+    leia (C)
+escolha (C)
+{
+    caso '+':
+    resultado = A + B
+
+    pare
+
+    caso '-'':
+    resultado = A - B
+
+    pare
+
+    caso '*':
+    resultado = A * B
+
+    pare
+
+    caso '/':
+    resultado = A / B
+
+    pare
+    
+    }
+
+    escreva("O resultado é: ", resultado)
+    
+
+
+  }
+}
